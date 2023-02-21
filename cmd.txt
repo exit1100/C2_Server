@@ -1,4 +1,4 @@
-`Linux : $ / Windows : #` 
+//Linux : $ / Windows : #
 
 $echo >> /tmp/cmd_history.txt
 #echo. >> c:\cmd_history.txt
@@ -16,8 +16,8 @@ $pwd >> /tmp/cmd_history.txt
 $ls -al >> /tmp/cmd_history.txt
 #dir >> c:\cmd_history.txt
 
-$tree >> /tmp/cmd_history.txt
-#tree >> c:\cmd_history.txt
+//$tree >> /tmp/cmd_history.txt
+//#tree >> c:\cmd_history.txt
 
 $mkdir /tmp/test >> /tmp/cmd_history.txt
 #mkdir c:\test2 >> c:\cmd_history.txt
